@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
-    <footer className="bg-main-color w-full h-48">
+    <footer className="footer">
       <div className="container">
-        <h1>venha nos conhecer</h1>
+        <h3>venha nos conhecer</h3>
       </div>
     </footer>
   )
