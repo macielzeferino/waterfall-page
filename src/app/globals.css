@@ -34,7 +34,7 @@
   width: 100%;
   height: 10vh;
   margin: auto;
-  background-color: aqua;
+  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,7 +48,7 @@ h1 {
 .main {
   width: 100%;
   min-height: 70vh;
-  background-color: aquamarine;
+  background-color: #fff;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -59,16 +59,42 @@ h1 {
   width: 70%;
   height: 100%;
   font-family: 'Roboto Flex', sans-serif;
-  font-size: 1.5rem;
-}
-
-.carrosel {
- height: 100%;
- flex-grow: 1;
+  font-size: 1rem;
 }
 
 .footer {
   width: 100%;
   height: 20vh;
-  background-color: blue;
+  background-color: #fff;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.inner div {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.nav-button {
+  background-color: #0070f3;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.nav-button:focus {
+  outline: none;
 }
