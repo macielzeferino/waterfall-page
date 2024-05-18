@@ -5,10 +5,10 @@ export default function Main() {
   return (
     <main className="main">
       <p className="paragraph">   
-        <strong>Descubra a Beleza Natural da Cachoeira do Urubu em Esperantina</strong><br /><br />
-        Localizada no coração do Piauí, a Cachoeira do Urubu é um verdadeiro tesouro natural que encanta visitantes de todo o Brasil. Com suas águas cristalinas e quedas de água impressionantes, este destino turístico oferece uma experiência única em contato com a natureza. Ao chegar ao local, os visitantes são recebidos pelo som relaxante das águas que fluem, criando uma atmosfera de paz e tranquilidade. Rodeada por uma exuberante vegetação, a cachoeira convida os aventureiros a explorarem suas piscinas naturais e trilhas circundantes, proporcionando momentos inesquecíveis em meio à biodiversidade da região. <br /><br />
-        <strong>Aventura e Relaxamento em Harmonia com a Natureza</strong><br /><br />
-        Além de sua beleza cênica, a Cachoeira do Urubu também oferece uma variedade de atividades para os visitantes desfrutarem. Desde mergulhos refrescantes em suas águas cristalinas até caminhadas revigorantes pelas trilhas locais, há algo para todos os gostos e idades. Os mais aventureiros podem explorar as áreas circundantes em busca de vistas panorâmicas deslumbrantes, enquanto aqueles que buscam relaxamento podem simplesmente se deleitar com a serenidade do ambiente natural. Seja para uma escapada de fim de semana ou uma viagem de exploração, a Cachoeira do Urubu em Esperantina é o destino perfeito para aqueles que buscam uma conexão autêntica com a beleza intocada da natureza.
+       O Parque Ecológico Cachoeira do Urubu é um destino imperdível para quem está passando pelo Piauí. Situado entre as cidades de Esperantina e Batalha, este parque oferece uma beleza natural única, destacada pelas suas impressionantes quedas d'água.
+       A principal atração do parque é a Cachoeira do Urubu, uma das maiores e mais bonitas cachoeiras do estado. Suas águas caem com força sobre as rochas, criando um        espetáculo visual e sonoro que encanta os visitantes. <br /> <br />
+       Além das cachoeiras, o Parque Ecológico Cachoeira do Urubu possui áreas para piquenique e locais de descanso onde os visitantes podem relaxar e apreciar a paisagem. Durante o período das chuvas, de janeiro a junho, o volume de água aumenta, tornando as quedas d'água ainda mais impressionantes. <br />
+       Portanto, se você estiver pelo Piauí, não deixe de incluir o Parque Ecológico Cachoeira do Urubu no seu roteiro. Será uma experiência inesquecível, repleta de        contato com a natureza e paisagens deslumbrantes.
       </p>
       <div>
         <Carousel />

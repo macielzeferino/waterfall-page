@@ -59,7 +59,7 @@ h1 {
   width: 70%;
   height: 100%;
   font-family: 'Roboto Flex', sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .footer {
@@ -69,32 +69,43 @@ h1 {
 }
 
 .carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
   display: flex;
   align-items: center;
-  overflow: hidden;
-  width: 100%;
 }
 
 .inner {
   display: flex;
-  transition: transform 0.5s ease-in-out;
+  width: 100%;
+  position: relative;
 }
 
-.inner div {
+.image-container {
   min-width: 100%;
-  box-sizing: border-box;
+  transition: opacity 0.5s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.image-container.active {
+  position: relative;
+  opacity: 1;
 }
 
 .nav-button {
-  background-color: #0070f3;
-  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
+  border: none;
   padding: 10px 20px;
   cursor: pointer;
-  font-size: 16px;
-  margin: 0 5px;
-}
-
-.nav-button:focus {
-  outline: none;
+  z-index: 10;
 }
