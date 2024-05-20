@@ -114,3 +114,32 @@ img {
   cursor: pointer;
   z-index: 10;
 }
+
+
+@media (width <= 1440px) {
+  main{
+    flex-direction: column;
+  }
+
+  .paragraph {
+    width: 100%;
+    padding: 0 5%;
+  }
+}
+
+@media (width <= 1024px) {
+  h1 {
+    font-size: 2rem;
+  }
+ 
+  .paragraph{
+    padding: 0 7%;
+  }
+}
+
+@media (width <= 768) {
+  img {
+    height: 600px;
+    width: 600px;
+  }
+}

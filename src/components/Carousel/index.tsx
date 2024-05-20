@@ -27,7 +27,7 @@ export default function Carousel() {
         className="nav-button" 
         whileTap={{ scale: 0.9 }}
       >
-        Anterior
+        &lt;
       </motion.button>
       <div className="inner">
         {images_carousel.map((image, index) => (
@@ -47,7 +47,7 @@ export default function Carousel() {
         className="nav-button" 
         whileTap={{ scale: 0.9 }}
       >
-        Proximo
+        &gt;
       </motion.button>
     </div>
   );
